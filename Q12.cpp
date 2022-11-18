@@ -1,8 +1,6 @@
 /* Topic: Linked List
  * Question: Reverse a Linked List
- * Given an integer array nums,
- * return true if any value appears at least twice in the array,
- * and return false if every element is distinct.
+ * Given the head of a singly linked list, reverse the list, and return the reversed list.
  */
 
 #include <iostream>
