@@ -15,3 +15,4 @@
 13. Reverse words in a string
 14. Valid Anagram
 15. Remove Duplicate Letters
+16. Pow(x, n)
