@@ -16,3 +16,9 @@
 14. Valid Anagram
 15. Remove Duplicate Letters
 16. Pow(x, n)
+17. Implement Stack Using Queue
+18. Insertion Sort List
+19. Sort an Array
+20. Find if Path Exists in Graph
+21. Merge Sorted Array
+22. Search in Rotated Sorted Array
