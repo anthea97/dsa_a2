@@ -6,6 +6,6 @@
 4. Remove Nth Node From End of List
 5. Kth Largest Element in a Stream
 6. Convert Sorted Array into Binary Search Tree
-7.Rotate Array
-8.Two Sum
+7. Rotate Array
+8. Two Sum
 9. Insert in a Sorted List
