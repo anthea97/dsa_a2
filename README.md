@@ -9,3 +9,9 @@
 7. Rotate Array
 8. Two Sum
 9. Insert in a Sorted List
+10. Remove Duplicates from Sorted Array
+11. Contains Duplicate
+12. Reverse a Linked List
+13. Reverse words in a string
+14. Valid Anagram
+15. 
