@@ -219,6 +219,110 @@ Example 1:
 Input: nums = [4,5,6,7,0,1,2], target = 0
 Output: 4
 
+## Question 23: Maximum Depth of Binary Tree
+Given the root of a binary tree, return its maximum depth.
+A binary tree's maximum depth is the number of nodes along the longest path from the root node down to the farthest leaf node.
+
+## Question 24: Four Sum
+Given an array nums of n integers, return an array of all the unique quadruplets [nums[a], nums[b], nums[c], nums[d]] such that:
+
+0 <= a, b, c, d < n
+a, b, c, and d are distinct.
+nums[a] + nums[b] + nums[c] + nums[d] == target
+You may return the answer in any order.
+
+## Question 25: Longest Substring Without Repeating Characters
+Given a string s, find the length of the longest substring without repeating characters.
+
+## Question 26: Replace Elements with Greatest Element on Right Side
+Given an array arr, replace every element in that array with the greatest element among the elements to its right,
+and replace the last element with -1.
+After doing so, return the array.
+
+## Question 27: Longest Palindromic Substring
+Given a string s, return the longest palindromic substring in s.
+
+## Question 28: Smallest Subtree with all the Deepest Nodes
+Given the root of a binary tree, the depth of each node is the shortest distance to the root.
+Return the smallest subtree such that it contains all the deepest nodes in the original tree.
+A node is called the deepest if it has the largest depth possible among any node in the entire tree.
+The subtree of a node is a tree consisting of that node, plus the set of all descendants of that node.
+
+## Question 29: Lowest Common Ancestor of Deepest Leaves
+Given the root of a binary tree, return the lowest common ancestor of its deepest leaves.
+Recall that:
+The node of a binary tree is a leaf if and only if it has no children
+The depth of the root of the tree is 0. if the depth of a node is d, the depth of each of its children is d + 1.
+The lowest common ancestor of a set S of nodes, is the node A with the largest depth such that every node in S is in the subtree with root A.
+
+## Question 30: Palindrome Partitioning
+Given a string s, partition s such that every substring of the partition is a palindrome. Return all possible palindrome partitioning of s.
+
+## Question 31: Shortest Path with Alternating Colors
+You are given an integer n, the number of nodes in a directed graph where the nodes are labeled from 0 to n - 1. Each edge is red or blue in this graph, and there could be self-edges and parallel edges.
+
+You are given two arrays redEdges and blueEdges where:
+
+redEdges[i] = [ai, bi] indicates that there is a directed red edge from node ai to node bi in the graph, and
+blueEdges[j] = [uj, vj] indicates that there is a directed blue edge from node uj to node vj in the graph.
+Return an array answer of length n, where each answer[x] is the length of the shortest path from node 0 to node x such that the edge colors alternate along the path, or -1 if such a path does not exist.
+
+## Question 32: All Unique Permutations of an Array
+Given a collection of numbers, nums, that might contain duplicates, return all possible unique permutations in any order.
+
+## Question 33: Kth Largest Element in an Array
+Given an integer array nums and an integer k, return the kth largest element in the array.
+Note that it is the kth largest element in the sorted order, not the kth distinct element.
+You must solve it in O(n) time complexity.
+
+## Question 34: Three Sum
+Given an integer array nums, return all the triplets [nums[i], nums[j], nums[k]] such that i != j, i != k, and j != k, and nums[i] + nums[j] + nums[k] == 0.
+Notice that the solution set must not contain duplicate triplets.
+
+## Question 35: Balanced Binary Tree
+Given a binary tree, determine if it is height-balanced.
+
+Example 1:
+![](https://assets.leetcode.com/uploads/2020/10/06/balance_1.jpg)
+
+Input: root = [3,9,20,null,null,15,7]
+Output: true
+Example 2:
+![](https://assets.leetcode.com/uploads/2020/10/06/balance_2.jpg)
+
+Input: root = [1,2,2,3,3,null,null,4,4]
+Output: false
+
+## Question 36: Median of Two Sorted Arrays
+Given two sorted arrays nums1 and nums2 of size m and n respectively, return the median of the two sorted arrays.
+The overall run time complexity should be O(log (m+n)).
+
+## Question 37: Sort Array By Parity
+Given an integer array nums, move all the even integers at the beginning of the array followed by all the odd integers.
+Return any array that satisfies this condition.
+
+## Question 38: Longest Common Prefix
+Write a function to find the longest common prefix string amongst an array of strings.
+If there is no common prefix, return an empty string "".
+
+## Question 39: Diagonal Traverse
+Given an m x n matrix mat, return an array of all the elements of the array in a diagonal order.
+
+Example 1:
+![](https://assets.leetcode.com/uploads/2021/04/10/diag1-grid.jpg)
+
+Input: mat = [[1,2,3],[4,5,6],[7,8,9]]
+Output: [1,2,4,7,5,3,6,8,9]
+
+## Question 40: Swap Nodes in Pairs
+Given a linked list, swap every two adjacent nodes and return its head. You must solve the problem without modifying the values in the list's nodes (i.e., only nodes themselves may be changed.)
+
+Example 1:
+![](https://assets.leetcode.com/uploads/2020/10/03/swap_ex1.jpg)
+
+Input: head = [1,2,3,4]
+Output: [2,1,4,3]
+
 
 ## Question 45: Spiral Matrix
 Given an m x n matrix, return all elements of the matrix in spiral order.

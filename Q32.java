@@ -1,3 +1,7 @@
+/* Topic: Array, Backtracking
+Given a collection of numbers, nums, that might contain duplicates, return all possible unique permutations in any order.
+ */
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
