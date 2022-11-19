@@ -1,6 +1,7 @@
-/* Topic: 2D Arrays
- * Question: Spiral Matrix
- * Given an m x n matrix, return all elements of the matrix in spiral order.
+/* Topic: Dynamic Programming
+ * Question: Climbing Stairs
+ * You are climbing a staircase. It takes n steps to reach the top.
+ * Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top?
 */
 
 #include <iostream>
@@ -8,78 +9,22 @@
 
 using namespace std;
 
-#define R 4
-#define C 4
-
- void spiralPrint(int m, int n, int a[R][C])
-{
-    int i, k = 0, l = 0;
-
-    /* k - starting row index
-        m - ending row index
-        l - starting column index
-        n - ending column index
-        i - iterator
-    */
-
-    while (k < m && l < n) {
-    for (i = l; i < n; ++i) {
-        cout << a[k][i] << " ";
-        }
-    k++;
-
-    /* Print the last column
-     from the remaining columns */
-    for (i = k; i < m; ++i) {
-        cout << a[i][n - 1] << " ";
+int climbStairs(int n) {
+    if (n <= 2) return n;
+    int prev = 2, prev2 = 1, res;
+    for (int i = 3; i <= n; i++) {
+        res = prev + prev2;
+        prev2 = prev;
+        prev = res;
     }
-    n--;
-    /* Print the last row from
-                    the remaining rows */
-        if (k < m) {
-            for (i = n - 1; i >= l; --i) {
-                cout << a[m - 1][i] << " ";
-            }
-            m--;
-        }
-
-    /* Print the first column from
-               the remaining columns */
-    if (l < n) {
-        for (i = m - 1; i >= k; --i) {
-            cout << a[i][l] << " ";
-        }
-        l++;
-    }
+    return res;
 }
-
-    /* Print the last row from
-                the remaining rows */
-     if (k < m) {
-         for (i = n - 1; i >= l; --i) {
-             cout << a[m - 1][i] << " ";
-         }
-         m--;
-     }
-
-     /* Print the first column from
-                the remaining columns */
-     if (l < n) {
-         for (i = m - 1; i >= k; --i) {
-             cout << a[i][l] << " ";
-         }
-         l++;
-     }
- }
 
 int main()
 {
-    int a[R][C] = { { 1, 2, 3, 4 },
-                    { 5, 6, 7, 8 },
-                    { 9, 10, 11, 12 },
-                    { 13, 14, 15, 16 } };
+    int n = 5;
 
-    // Function Call
-    spiralPrint(R, C, a);
+    cout<<climbStairs(n);
+
     return 0;
 }
