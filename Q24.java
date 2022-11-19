@@ -54,6 +54,7 @@ class Solution24 {
 public class Q24 {
     public static void main(String[] args) {
         Solution24 solution = new Solution24();
+        System.out.println("Four numbers with sum as target: ");
         List<List<Integer>> ans = solution.fourSum(new int[]{1, 0, -1, 0, -2, 2}, 0);
         System.out.println(ans);
     }

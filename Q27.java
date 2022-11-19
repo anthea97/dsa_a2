@@ -44,6 +44,6 @@ public class Q27 {
     public static void main(String[] args) {
         Solution27 solution = new Solution27();
         String ans = solution.longestPalindrome("babad");
-        System.out.println(ans);
+        System.out.println("Longest Palindromic Substring: " + ans);
     }
 }

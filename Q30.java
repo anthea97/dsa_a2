@@ -58,6 +58,7 @@ class Solution30 {
 public class Q30 {
     public static void main(String[] args) {
         Solution30 solution = new Solution30();
+        System.out.println("After Palindrome Partitioning: ");
         List<List<String>> ans = solution.partition("aab");
         System.out.println(ans);
     }

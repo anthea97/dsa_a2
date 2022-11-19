@@ -24,6 +24,6 @@ public class Q25 {
     public static void main(String[] args) {
         Solution25 solution = new Solution25();
         int len = solution.lengthOfLongestSubstring("abcabcbb");
-        System.out.println("Length: " + len);
+        System.out.println("Length of Longest Substring Without Repeating Characters: " + len);
     }
 }

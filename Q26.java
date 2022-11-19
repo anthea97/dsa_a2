@@ -33,6 +33,7 @@ public class Q26 {
     public static void main(String[] args) {
         Solution26 solution = new Solution26();
         int[] ans = solution.replaceElements(new int[]{17, 18, 5, 4, 6, 1});
+        System.out.println("Replaced array: ");
         System.out.println(Arrays.toString(ans));
     }
 }
