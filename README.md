@@ -44,4 +44,4 @@
 42. String Manipulation in a ZigZag Pattern
 43. Spiral Matrix Path Traversal
 44. Sqrt(x) using Binary Search
-45. Spiral Matrix
+45. Climbing Stairs

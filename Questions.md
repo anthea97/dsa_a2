@@ -323,8 +323,42 @@ Example 1:
 Input: head = [1,2,3,4]
 Output: [2,1,4,3]
 
+## Question 41: Sum of Absolute Differences in a Sorted Array
+You are given an integer array nums sorted in non-decreasing order.
+Build and return an integer array result with the same length as nums such that result[i] is equal to the summation of absolute differences between nums[i] and all the other elements in the array.
+In other words, result[i] is equal to sum(|nums[i]-nums[j]|) where 0 <= j < nums.length and j != i (0-indexed).
 
-## Question 45: Spiral Matrix
+## Question 42: String Manipulation in a ZigZag Pattern
+The string "PAYPALISHIRING" is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)
+
+P   A   H   N
+A P L S I I G
+Y   I   R
+And then read line by line: "PAHNAPLSIIGYIR"
+
+Write the code that will take a string and make this conversion given a number of rows:
+
+string convert(string s, int numRows);
+
+## Question 43: Spiral Matrix Path Traversal
 Given an m x n matrix, return all elements of the matrix in spiral order.
 
+Example 1:
 ![](https://assets.leetcode.com/uploads/2020/11/13/spiral1.jpg)
+
+Input: matrix = [[1,2,3],[4,5,6],[7,8,9]]
+Output: [1,2,3,6,9,8,7,4,5]
+Example 2:
+![](https://assets.leetcode.com/uploads/2020/11/13/spiral.jpg)
+
+Input: matrix = [[1,2,3,4],[5,6,7,8],[9,10,11,12]]
+Output: [1,2,3,4,8,12,11,10,9,5,6,7]
+
+## Question 44: Sqrt(x) using Binary Search
+Given a non-negative integer x, return the square root of x rounded down to the nearest integer. The returned integer should be non-negative as well.
+You must not use any built-in exponent function or operator.
+For example, do not use pow(x, 0.5) in c++ or x ** 0.5 in python.
+
+## Question 45: Climbing Stairs
+You are climbing a staircase. It takes n steps to reach the top.
+Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top?
