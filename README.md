@@ -22,3 +22,12 @@
 20. Find if Path Exists in Graph
 21. Merge Sorted Array
 22. Search in Rotated Sorted Array
+
+23. Maximum Depth of Binary Tree
+24. Four Sum
+25. Longest Substring Without Repeating Characters
+26. Replace Elements with Greatest Element on Right Side
+27. Longest Palindromic Substring
+28. Smallest Subtree with all the Deepest Nodes
+29. Lowest Common Ancestor of Deepest Leaves
+30. Palindrome Partitioning
