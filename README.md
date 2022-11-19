@@ -31,3 +31,14 @@
 28. Smallest Subtree with all the Deepest Nodes
 29. Lowest Common Ancestor of Deepest Leaves
 30. Palindrome Partitioning
+31. Shortest Path with Alternating Colors
+32. Find if Path Exists in Graph
+33. Kth Largest Element in an Array
+34. Three Sum
+35. Balanced Binary Tree
+36. Median of Two Sorted Arrays
+37. Sort Array By Parity
+38. Longest Common Prefix
+39. Diagonal Traverse
+40. Swap Nodes in Pairs 
+41. Sum of Absolute Differences in a Sorted Array
