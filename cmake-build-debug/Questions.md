@@ -115,4 +115,18 @@ Output: 2, nums = [1,2,_]
 Explanation: Your function should return k = 2, with the first two elements of nums being 1 and 2 respectively.
 It does not matter what you leave beyond the returned k (hence they are underscores).
 
-## Question 11: 
+## Question 11: Contains Duplicate
+Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.
+
+Example 1:
+
+Input: nums = [1,2,3,1]
+Output: true
+
+
+## Question 12: Reverse a Linked List
+Given the head of a singly linked list, reverse the list, and return the reversed list.
+
+![](https://assets.leetcode.com/uploads/2021/02/19/rev1ex1.jpg)
+
+## Question 13: 
