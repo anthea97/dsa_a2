@@ -22,7 +22,6 @@
 20. Find if Path Exists in Graph
 21. Merge Sorted Array
 22. Search in Rotated Sorted Array
-
 23. Maximum Depth of Binary Tree
 24. Four Sum
 25. Longest Substring Without Repeating Characters
@@ -32,7 +31,7 @@
 29. Lowest Common Ancestor of Deepest Leaves
 30. Palindrome Partitioning
 31. Shortest Path with Alternating Colors
-32. Find if Path Exists in Graph
+32. All Unique Permutations of an Array
 33. Kth Largest Element in an Array
 34. Three Sum
 35. Balanced Binary Tree
@@ -40,5 +39,7 @@
 37. Sort Array By Parity
 38. Longest Common Prefix
 39. Diagonal Traverse
-40. Swap Nodes in Pairs 
+40. Swap Nodes in Pairs
 41. Sum of Absolute Differences in a Sorted Array
+42. String Manipulation in a ZigZag Pattern
+43. Spiral Matrix Path Traversal

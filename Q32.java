@@ -1,47 +1,49 @@
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
 
 class Solution32 {
-    public boolean validPath(int n, int[][] edges, int source, int destination) {
-        if (edges.length == 0) return source == destination;
-        List<Integer>[] graph = new ArrayList[n];
-        for (int[] edge : edges) {
-            int v = edge[0];
-            int w = edge[1];
-            if (graph[v] == null) {
-                graph[v] = new ArrayList<>();
+    private List<List<Integer>> ans;
+    private HashMap<ArrayList<Integer>, Boolean> map;
+
+    private void swap(int[] nums, int l, int r) {
+        int temp = nums[l];
+        nums[l] = nums[r];
+        nums[r] = temp;
+    }
+
+    private void permutation(int[] nums, int l, int r) {
+        if (l == r) {
+            ArrayList<Integer> a = new ArrayList<>();
+            for (int n : nums) {
+                a.add(n);
             }
-            graph[v].add(w);
-            if (graph[w] == null) {
-                graph[w] = new ArrayList<>();
+            if (!map.getOrDefault(a, false)) {
+                map.put(a, true);
+                ans.add(a);
             }
-            graph[w].add(v);
+            return;
         }
 
-        Queue<Integer> queue = new LinkedList<>();
-        queue.offer(source);
-        HashSet<Integer> visited = new HashSet<>();
-        visited.add(source);
-
-        while (!queue.isEmpty()) {
-            int curr = queue.poll();
-
-            for (int neighbor : graph[curr]) {
-                if (neighbor == destination) return true;
-
-                if (!visited.contains(neighbor)) {
-                    visited.add(neighbor);
-                    queue.offer(neighbor);
-                }
-            }
+        for (int i = l; i <= r; i++) {
+            swap(nums, l, i);
+            permutation(nums, l + 1, r);
+            swap(nums, l, i);
         }
-        return false;
+    }
+
+    public List<List<Integer>> permuteUnique(int[] nums) {
+        ans = new ArrayList<>();
+        map = new HashMap<>();
+        permutation(nums, 0, nums.length - 1);
+        return ans;
     }
 }
 
 public class Q32 {
     public static void main(String[] args) {
         Solution32 solution = new Solution32();
-        boolean path = solution.validPath(3, new int[][]{new int[]{0, 1}, new int[]{1, 2}, new int[]{2, 0}}, 0, 2);
-        System.out.println(path);
+        List<List<Integer>> ans = solution.permuteUnique(new int[]{1, 1, 2});
+        System.out.println("Unique permutations: " + ans);
     }
 }
