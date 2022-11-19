@@ -1,3 +1,7 @@
+/* Topic: Hash tables, Strings
+Given a string s, find the length of the longest substring without repeating characters.
+ */
+
 class Solution25 {
     public int lengthOfLongestSubstring(String s) {
         int[] lastIndex = new int[256];

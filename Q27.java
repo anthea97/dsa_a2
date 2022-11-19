@@ -1,3 +1,7 @@
+/* Topic: Dynamic Programming, Strings
+Given a string s, return the longest palindromic substring in s.
+ */
+
 class Solution27 {
     public String longestPalindrome(String s) {
         int length = s.length();
