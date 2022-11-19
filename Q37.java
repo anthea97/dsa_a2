@@ -33,7 +33,7 @@ class Solution37 {
 public class Q37 {
     public static void main(String[] args) {
         Solution37 solution = new Solution37();
-        int[] ans = solution.sortArrayByParity(new int[]{3,1,2,4});
-        System.out.println(Arrays.toString(ans));
+        int[] ans = solution.sortArrayByParity(new int[]{3, 1, 2, 4});
+        System.out.println("Sorted array: " + Arrays.toString(ans));
     }
 }

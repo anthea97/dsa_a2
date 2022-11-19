@@ -45,6 +45,7 @@ public class Q31 {
     public static void main(String[] args) {
         Solution31 solution = new Solution31();
         int[] ans = solution.shortestAlternatingPaths(3, new int[][]{new int[]{0, 1}, new int[]{1, 2}}, new int[][]{});
+        System.out.println("Shortest Path with Alternating Colors: ");
         System.out.println(Arrays.toString(ans));
     }
 }
